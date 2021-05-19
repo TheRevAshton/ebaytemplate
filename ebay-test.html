@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBay Test</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style type="text/css">
+        * {
+            font-family: Arial;
+            color: #fff;
+        }
+    
+        .master-container {
+            background-color: #000;
+            width: 1200px;
+            display: block;
+            margin: auto;
+            height: fit-content;
+        }
+    
+        img {
+            width: inherit;
+        }
+    
+        .top-nav {
+            width: 100%;
+        }
+    
+        td {
+            padding: 0 10px;
+            vertical-align: baseline;
+            height: auto;
+        }
+
+        .restriction-img {
+            width: auto;
+        }
+    
+        /* Header Section
+            ----------------------------*/
+    
+        .navbar-top {
+            background-color: #282929;
+            height: 75px;
+            border-top: 20px solid #000;
+            padding: 0 30px;
+        }
+    
+        .contact-us {
+            float: right;
+            list-style: none;
+        }
+    
+        .welcome-tw {
+            float: left;
+            list-style: none;
+        }
+    
+        .section-header,
+        .section-three {
+            border-bottom: solid 2px #282929;
+        }
+    
+        nav>ul {
+            padding: 0 2%;
+            margin: 16px 0;
+        }
+    
+        .navbar-main>ul>li {
+            color: #fff;
+            text-align: center;
+            display: inline-block;
+            width: 24%;
+            text-transform: uppercase;
+            font-size: larger;
+            font-weight: bold;
+            border-right: solid 2px #e30613;
+        }
+    
+        /* NavBar Stroke Effect
+            ---------------------------- */
+    
+        .navbar-main>ul>li,
+        .navbar-main>ul>li:after,
+        .navbar-main>ul>li:before {
+            transition: all .5s;
+        }
+    
+        .navbar-main>ul>li:hover {
+            color: #e30613;
+            cursor: pointer;
+        }
+    
+        .navbar-main>ul>li {
+            position: relative;
+        }
+    
+        .navbar-main>ul>li:after,
+        .navbar-main>ul>li:after {
+            position: absolute;
+            bottom: 0;
+            left: 25%;
+            right: 0;
+            margin: auto;
+            width: 0%;
+            content: '.';
+            color: transparent;
+            background: #e30613;
+            height: 1px;
+        }
+    
+        .navbar-main>ul>li:hover:after {
+            width: 50%;
+        }
+    
+        .navbar-main>ul>li {
+            transition: all 1s;
+        }
+    
+        .navbar-main>ul>li:after {
+            content: '.';
+            margin: 0;
+            opacity: 0;
+        }
+    
+        .navbar-main>ul>li:hover {
+            color: #e30613;
+            z-index: 1;
+        }
+    
+        .navbar-main>ul>li:after {
+            z-index: -10;
+            animation: fill 1s forwards;
+            opacity: 1;
+        }
+    
+        /* Navbar Stroke End
+            -------------------------- */
+    
+        .navbar-main .last-child {
+            border-right: 0;
+        }
+    
+        .home-button {
+            height: 25px;
+        }
+
+        /* Text CSS
+        ------------------------ */
+
+        .title-text, .price-text {
+            font-weight: bolder;
+        }
+
+        .price-text {
+            color: #e30613;
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div style="padding: 10px 0; text-align: center; border: 5px solid #F9AC19; margin-bottom: 20px;"><img src="https://www.verifymyage.co.uk/verifymyage-badge.png?v=2" alt="Verified With VerifyMyAge" style="width: 335px; height: 60px;"><p style="color: #161c2d; font-family: Arial; font-size: 16px; padding-top: 15px; margin: 0 15px;">You must be over 18 to purchase this product. We have an effective and monitored age verification process provided by VerifyMyAge. We will not sell to persons that do not meet the age restrictions for this product and by continuing with this purchase you hereby consent to the processing of your personal data for age verification purposes.</p></div><table align="center" style="font-family: Arial; font-size: 14pt;">
+    </table><font rwr="1" style=""><font rwr="1" style=""><font rwr="1" style=""><font rwr="1" style=""><font rwr="1" style=""><font rwr="1" style=""><font rwr="1" style="">
+
+        <div class="master-container">
+            <div class="section-header">
+
+                <container class="top-nav">
+
+                <nav class="navbar-top">
+                    <ul>
+                        <li class="welcome-tw"><img class="home-button" src="https://mcusercontent.com/b8c32cfff83a415785e34203e/images/942f5ebf-edfa-be10-4599-63d789da8d65.png">  Welcome to <strong>Totally Wicked</strong></li>
+                        <li class="contact-us">Contact Us</li>
+                    </ul>
+                </nav>
+            </container>
+
+
+                <img src="https://mcusercontent.com/b8c32cfff83a415785e34203e/images/13272444-608b-775d-b478-9d460dfe6eb9.jpg">
+                    <nav class="navbar-main">
+                        <ul>
+                            <li>Home</li>
+                            <li>E-liquid</li>
+                            <li>Kits</li>
+                            <li class="last-child">Atomizers</li>
+                        </ul>
+                    </nav>
+
+
+            </div>
+                <div class="section-two">
+
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                      <div class="col-sm-5">
+                          <img src="https://i.ebayimg.com/images/g/nsMAAOSwgVBbyJQK/s-l1600.jpg">
+                      </div>
+                      <div class="col-sm-7">
+                          
+                        <table style="border-collapse: collapse; width: 100%; height: 100%;" border="0">
+                        <tbody>
+                        <tr>
+                        <td style="width: 75%; height: 20%;" colspan="3"><h2 class="title-text">TEST TEST TEST TEST</h2></td>
+                        <td style="width: 25%; height: 20%"><h2 class="price-text">£00.00</h2></td>
+                        </tr>
+                        <tr>
+                        <td style="width: 100%; height: 70%" colspan="4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem vitae, provident repudiandae sequi officia voluptatem soluta quisquam velit dolores consequatur deleniti perferendis eos ipsam suscipit libero vero, dolor explicabo earum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, est asperiores laboriosam veritatis ab nesciunt incidunt culpa magnam alias quidem impedit totam consequuntur sapiente minus nobis laudantium placeat voluptate nemo!</td>
+                        </tr>
+                        <tr>
+                        <td style="width: 100%; height: 10%; background-color: #282929;" colspan="4">
+                        
+                            <table style="border-collapse: collapse; width: 100%;" border="0">
+                                <tbody>
+                                <tr>
+                                <td style="width: 10%;">&nbsp;</td>
+                                <td style="width: 15%; vertical-align: middle;" ><img style="display: block; margin-left: auto; margin-right: auto; width: auto;" src="https://www.totallywicked-eliquid.co.uk/media/wysiwyg/site_assets/18__full_colour.png" /></td>
+                                <td style="width: 65%; vertical-align: top; padding-top: 15px;"><p style="font-size: 13px;"><strong>RESTRICTION</strong><br />The product is not suitable for anybody under the age of 18, and not for use by non-smokers</p></td>
+                                <td style="width: 10%;"><strong>&nbsp;</strong></td>
+                                </tr>
+                                </tbody>
+                                </table>
+                        
+                        </td>
+                        </tr>
+                        </tbody>
+                        </table>
+
+                    </div>
+                    </div>
+                  </div>
+
+                  <br>
+
+            </div>
+            <div class="section-three">
+
+                <br>
+                
+                <div class="container">
+                    <div class="row">
+                      <div class="col-sm-5">
+                          <img src="https://i.ebayimg.com/images/g/nsMAAOSwgVBbyJQK/s-l1600.jpg">
+                      </div>
+                      <div class="col-sm-7">123</div>
+                    </div>
+                </div>
+               
+
+                  <br>
+
+            </div>
+            <div class="section-four">
+
+                <br>
+                
+                <div class="container">
+                    <div class="row">
+                      <div class="col-sm-4">
+                          <img src="https://mcusercontent.com/b8c32cfff83a415785e34203e/images/b5bd5ea9-1dbc-7ee7-132e-0ffc59f1c382.jpg">
+                      </div>
+                      <div class="col-sm-4">
+                        <img src="https://mcusercontent.com/b8c32cfff83a415785e34203e/images/7cdb8a05-519f-c959-b04a-94de1b529cc8.jpg">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://mcusercontent.com/b8c32cfff83a415785e34203e/images/2a52a609-ad0b-f924-f06c-863f78450a01.jpg">
+                    </div>
+                      
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="https://mcusercontent.com/b8c32cfff83a415785e34203e/images/3dd87899-75af-4921-1b23-04059c00fe02.jpg">
+                        </div>
+
+                </div>
+               
+
+                  <br>
+
+            </div>
+
+        <div class="section-five">
+
+
+
+
+        </div>
+        <div class="section-six"></div>
+
+
+
+        </div>
+
+
+    
+</body>
+</html>
+    
+    
